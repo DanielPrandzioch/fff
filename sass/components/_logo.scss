@@ -1,0 +1,57 @@
+@media screen and (min-width: 320px) {
+	.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	color: var(--second-text-color);
+	}
+	.logo__label {
+	color: var(--main-color);
+	}
+}
+
+
+@media screen and (min-width: 480px) {
+	.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.192;
+	letter-spacing: 0.03em;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	color: var(--second-text-color);
+	}
+	.logo__label {
+	color: var(--main-color);
+	}
+}
+
+
+
+// .logo {
+// 	font-family: var(--secondary-font);
+// 	font-weight: 700;
+// 	font-size: 26px;
+// 	line-height: 1.192;
+// 	letter-spacing: 0.03em;
+// 	margin-top: 24px;
+// 	margin-right: 93px;
+// 	margin-bottom: 25px;
+// 	color: var(--second-text-color);
+// }
+// .logo__label {
+// 	color: var(--main-color);
+// }
+// .logo-footer {
+// 	font-family: var(--secondary-font);
+// 	font-weight: 700;
+// 	font-size: 26px;
+// 	line-height: 1.192;
+// 	letter-spacing: 0.03em;
+// 	color: var(--white-color)
+// }
