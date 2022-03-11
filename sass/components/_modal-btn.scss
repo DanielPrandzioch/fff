@@ -29,3 +29,15 @@
 		padding-bottom: px;
 	}
 }
+
+@media screen and (min-width: 768px) {
+	.modal-btn__box {
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.modal-btn__box {
+		padding-bottom: 106px;
+	}
+}

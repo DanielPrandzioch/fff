@@ -1,8 +1,37 @@
 
-// .section {
-// 	padding-bottom: 94px;
 
-// 	&:not(.about-us) {
-// 	padding-top: 94px;
-// 	}
-// }
+@media screen and (min-width: 320px) {
+   .section {
+       margin-bottom: 60px;
+    }
+    .list {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 480px) {
+    .section {
+       margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+ .section {
+     margin-bottom: 60px;
+ }
+ .list {
+	flex-wrap: wrap;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+    .section {
+	padding-bottom: 94px;
+    margin: 0 auto;
+
+	&:not(.about-us) {
+	padding-top: 94px;
+	}
+    }
+}
