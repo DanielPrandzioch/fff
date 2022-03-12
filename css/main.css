@@ -646,7 +646,7 @@ button {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .atuts-ul {
     display: flex;
   }
@@ -687,6 +687,10 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .atuts-ul {
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .atuts__item:not(:last-child) {
     padding-right: 30px;
   }
@@ -717,47 +721,48 @@ button {
   }
 }
 
-.about-us .container {
-  text-align: center;
-}
-
-.section__title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--second-text-color);
-}
-
-.about-us__item:not(:last-child) {
-  padding-right: 30px;
-}
-
-.about-us__box {
-  position: relative;
-}
-
-.about-us__undertitle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  position: absolute;
-  bottom: 0;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.142;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
   .about-us {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-us .container {
+    text-align: center;
+  }
+  .about-us__list {
+    display: flex;
+  }
+  .section__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: var(--second-text-color);
+  }
+  .about-us__item:not(:last-child) {
+    padding-right: 30px;
+  }
+  .about-us__box {
+    position: relative;
+  }
+  .about-us__undertitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    color: #fff;
   }
 }
 
