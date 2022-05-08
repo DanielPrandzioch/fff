@@ -82,6 +82,7 @@ button {
   .list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .section__title {
     color: #000;
@@ -645,9 +646,8 @@ button {
 }
 
 @media screen and (min-width: 320px) {
-  .join-us {
-    padding-top: 72px;
-    margin-left: 70px;
+  .join-us__list {
+    display: block;
   }
   .join-us__icon {
     text-align: center;
@@ -675,8 +675,7 @@ button {
   .form__input {
     padding-left: 16px;
     height: 50px;
-    width: 358px;
-    margin-right: 12px;
+    width: 450px;
     border-radius: 4px;
     background-color: transparent;
     border: 1.5px solid rgba(255, 255, 255, 0.3);
