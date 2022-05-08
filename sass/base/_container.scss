@@ -4,7 +4,7 @@
 	text-align: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 480px) {
 	.container:not(.header__container) {
 	max-width: 480px;
 	padding: 0 15px;

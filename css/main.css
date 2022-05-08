@@ -84,6 +84,9 @@ button {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .portfolio-controls__list {
+    justify-content: start;
+  }
   .section__title {
     color: #000;
     padding-top: 60px;
