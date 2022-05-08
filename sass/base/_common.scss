@@ -29,10 +29,21 @@ img {
 }
 button {
 	display: block;
-	border: none;
-	background-color: #fff;
+	// border: none;
+	// background-color: var(--white-color-); 
 }
 
+@media screen and (max-width: 480px) {
+	button {
+		border: none;
+		background-color: var(--white-color-);
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+	button {
+		display: none;
+	}
+}
 .list {
 	list-style: none;
 	display: flex;

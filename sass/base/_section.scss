@@ -1,0 +1,10 @@
+
+@media screen and (min-width: 1200px) {
+    .section {
+	padding-bottom: 94px;
+
+	&:not(.about-us) {
+	padding-top: 94px;
+	}
+}
+}
