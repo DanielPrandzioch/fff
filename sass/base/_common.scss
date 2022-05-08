@@ -29,7 +29,10 @@ img {
 }
 button {
 	display: block;
+	border: none;
+	background-color: #fff;
 }
+
 .list {
 	list-style: none;
 	display: flex;

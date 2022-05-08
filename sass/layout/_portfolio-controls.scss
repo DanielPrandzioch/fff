@@ -13,3 +13,11 @@
 .portfolio-controls__list {
 	margin-bottom: 50px;
 }
+@media screen and (max-width: 480px) {
+	.portfolio-controls__item:nth-last-child(-n+2) {
+		margin-top: 8px;
+	}
+	.portfolio-controls__list {
+		
+	}
+}

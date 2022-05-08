@@ -15,15 +15,20 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
+		<script
+			src="https://kit.fontawesome.com/7132bde3d4.js"
+			crossorigin="anonymous"
+		></script>
 		<link rel="stylesheet" href="css/main.min.css" />
 	</head>
 
 	<body>
-		<!-- <header class="header">
-			<div class="container">
+		<header class="header">
+			<div class="container header__container">
 				<a class="logo" href="index.html"
 					><span class="logo__label">Web</span>Studio</a
 				>
+
 				<nav class="nav">
 					<ul class="nav__list list">
 						<li class="nav__item">
@@ -39,6 +44,7 @@
 						</li>
 					</ul>
 				</nav>
+				
 				<div class="header-address">
 					<a class="header-address__link" href="mailto:info@devstudio.com">
 						<svg class="header-address__icon header-address__icon--mail">
@@ -53,12 +59,24 @@
 						+48 111 111 111</a
 					>
 				</div>
+
+				<!-- HAMBURGER -->
+
+				<button class="hamburger-btn" type="button" mobile-menu-open>
+          			<svg class="hamburger-btn__icon" width="24" height="16">
+            		<use href="images/icons.svg#hamburger"></use>
+          			</svg>
+        		</button>
+				
+      	</div>
 			</div>
-		</header> -->
+		</header>
+		
 		<main class="main">
 			<!--HERO-->
+			
 			<section class="hero section">
-				<div class="container">
+				<div class="container ">
 					<div class="hero__box">
 						<h1 class="main-title">
 							EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
@@ -178,19 +196,43 @@
 			<section class="our-team section">
 				<div class="container">
 					<h2 class="section__title">Nasz zespół</h2>
-					<ul class="list">
+					<ul class="list our-team__list">
 						<li class="our-team__item">
 							<picture class="our-team__picture">
-                  <source srcset="images/Main/team/John_Doe_1.jpg 1x, images/Main/team/John_Doe_1-@2x.jpg 2x" 
-                          media="(min-width: 1200px)">
-                  <source srcset="images/Main/team/img1-tablet.jpg 1x, images/Main/team/img1-tablet-@2x.jpg 2x" 
-                          media="(min-width: 768px)">
-                  <source srcset="images/Main/team/img1-mobile.jpg 1x, images/Main/team/img1-mobile-@2x.jpg 2x" 
-                          media="(min-width: 480px)" sizes="354px">
-                  <source srcset="images/Main/team/John_Doe_1.jpg 1x, images/Main/team/John_Doe_1-@2x.jpg 2x" 
-                         media="(min-width: 320px)">
-                  <img
-                  src="images/Main/team/John_Doe_1.jpg" alt="zdjęcie John Doe 1" /> 
+								<source
+									srcset="
+										images/Main/team/John_Doe_1.jpg     1x,
+										images/Main/team/John_Doe_1-@2x.jpg 2x
+									"
+									media="(min-width: 1200px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img1-tablet.jpg     1x,
+										images/Main/team/img1-tablet-@2x.jpg 2x
+									"
+									media="(min-width: 768px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img1-mobile.jpg     1x,
+										images/Main/team/img1-mobile-@2x.jpg 2x
+									"
+									media="(min-width: 480px)"
+									sizes="354px"
+								/>
+								<source
+									srcset="
+										images/Main/team/John_Doe_1.jpg     1x,
+										images/Main/team/John_Doe_1-@2x.jpg 2x
+									"
+									media="(min-width: 320px)"
+								/>
+								<img
+									class="our-team__img"
+									src="images/Main/team/John_Doe_1.jpg"
+									alt="zdjęcie John Doe 1"
+								/>
 							</picture>
 							<h3 class="our-team__undertitle">John Doe</h3>
 							<p class="our-team__description">Product Designer</p>
@@ -227,16 +269,40 @@
 						</li>
 						<li class="our-team__item">
 							<picture class="our-team__picture">
-                  <source srcset="images/Main/team/John_Doe_2.jpg 1x, images/Main/team/John_Doe_2-@2x.jpg 2x" 
-                          media="(min-width: 1200px)">
-                  <source srcset="images/Main/team/img2-tablet.jpg 1x, images/Main/team/img2-tablet-@2x.jpg 2x" 
-                          media="(min-width: 768px)">
-                  <source srcset="images/Main/team/img2-mobile.jpg 1x, images/Main/team/img2-mobile-@2x.jpg 2x" 
-                          media="(min-width: 480px)" sizes="354px">
-                  <source srcset="images/Main/team/John_Doe_2.jpg 1x, images/Main/team/John_Doe_2-@2x.jpg 2x" 
-                         media="(min-width: 320px)">
-                  <img
-                  src="images/Main/team/John_Doe_2.jpg" alt="zdjęcie John Doe 2" /> 
+								<source
+									srcset="
+										images/Main/team/John_Doe_2.jpg     1x,
+										images/Main/team/John_Doe_2-@2x.jpg 2x
+									"
+									media="(min-width: 1200px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img2-tablet.jpg     1x,
+										images/Main/team/img2-tablet-@2x.jpg 2x
+									"
+									media="(min-width: 768px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img2-mobile.jpg     1x,
+										images/Main/team/img2-mobile-@2x.jpg 2x
+									"
+									media="(min-width: 480px)"
+									sizes="354px"
+								/>
+								<source
+									srcset="
+										images/Main/team/John_Doe_2.jpg     1x,
+										images/Main/team/John_Doe_2-@2x.jpg 2x
+									"
+									media="(min-width: 320px)"
+								/>
+								<img
+									class="our-team__img"
+									src="images/Main/team/John_Doe_2.jpg"
+									alt="zdjęcie John Doe 2"
+								/>
 							</picture>
 							<h3 class="our-team__undertitle">John Doe</h3>
 							<p class="our-team__description">Frontend Developer</p>
@@ -273,16 +339,40 @@
 						</li>
 						<li class="our-team__item">
 							<picture class="our-team__picture">
-                  <source srcset="images/Main/team/John_Doe_3.jpg 1x, images/Main/team/John_Doe_3-@2x.jpg 2x" 
-                          media="(min-width: 1200px)">
-                  <source srcset="images/Main/team/img3-tablet.jpg 1x, images/Main/team/img3-tablet-@2x.jpg 2x" 
-                          media="(min-width: 768px)">
-                  <source srcset="images/Main/team/img3-mobile.jpg 1x, images/Main/team/img3-mobile-@2x.jpg 2x" 
-                          media="(min-width: 480px)" sizes="354px">
-                  <source srcset="images/Main/team/John_Doe_3.jpg 1x, images/Main/team/John_Doe_3-@2x.jpg 2x" 
-                         media="(min-width: 320px)">
-                  <img
-                  src="images/Main/team/John_Doe_3.jpg" alt="zdjęcie John Doe 3" /> 
+								<source
+									srcset="
+										images/Main/team/John_Doe_3.jpg     1x,
+										images/Main/team/John_Doe_3-@2x.jpg 2x
+									"
+									media="(min-width: 1200px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img3-tablet.jpg     1x,
+										images/Main/team/img3-tablet-@2x.jpg 2x
+									"
+									media="(min-width: 768px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img3-mobile.jpg     1x,
+										images/Main/team/img3-mobile-@2x.jpg 2x
+									"
+									media="(min-width: 480px)"
+									sizes="354px"
+								/>
+								<source
+									srcset="
+										images/Main/team/John_Doe_3.jpg     1x,
+										images/Main/team/John_Doe_3-@2x.jpg 2x
+									"
+									media="(min-width: 320px)"
+								/>
+								<img
+									class="our-team__img"
+									src="images/Main/team/John_Doe_3.jpg"
+									alt="zdjęcie John Doe 3"
+								/>
 							</picture>
 							<h3 class="our-team__undertitle">John Doe</h3>
 							<p class="our-team__description">Marketing</p>
@@ -319,16 +409,40 @@
 						</li>
 						<li class="our-team__item">
 							<picture class="our-team__picture">
-                  <source srcset="images/Main/team/John_Doe_4.jpg 1x, images/Main/team/John_Doe_4-@2x.jpg 2x" 
-                          media="(min-width: 1200px)">
-                  <source srcset="images/Main/team/img4-tablet.jpg 1x, images/Main/team/img4-tablet-@2x.jpg 2x" 
-                          media="(min-width: 768px)">
-                  <source srcset="images/Main/team/img4-mobile.jpg 1x, images/Main/team/img4-mobile-@2x.jpg 2x" 
-                          media="(min-width: 480px)" sizes="354px">
-                  <source srcset="images/Main/team/John_Doe_4.jpg 1x, images/Main/team/John_Doe_4-@2x.jpg 2x" 
-                         media="(min-width: 320px)">
-                  <img
-                  src="images/Main/team/John_Doe_4.jpg" alt="zdjęcie John Doe 4" /> 
+								<source
+									srcset="
+										images/Main/team/John_Doe_4.jpg     1x,
+										images/Main/team/John_Doe_4-@2x.jpg 2x
+									"
+									media="(min-width: 1200px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img4-tablet.jpg     1x,
+										images/Main/team/img4-tablet-@2x.jpg 2x
+									"
+									media="(min-width: 768px)"
+								/>
+								<source
+									srcset="
+										images/Main/team/img4-mobile.jpg     1x,
+										images/Main/team/img4-mobile-@2x.jpg 2x
+									"
+									media="(min-width: 480px)"
+									sizes="354px"
+								/>
+								<source
+									srcset="
+										images/Main/team/John_Doe_4.jpg     1x,
+										images/Main/team/John_Doe_4-@2x.jpg 2x
+									"
+									media="(min-width: 320px)"
+								/>
+								<img
+									class="our-team__img"
+									src="images/Main/team/John_Doe_4.jpg"
+									alt="zdjęcie John Doe 4"
+								/>
 							</picture>
 							<h3 class="our-team__undertitle">John Doe</h3>
 							<p class="our-team__description">UI Designer</p>
@@ -369,10 +483,10 @@
 
 			<!-- OUR CLIENTS -->
 
-			<!-- <section class="section">
+			<section class="section section__client">
 				<div class="container">
-					<h2 class="section__title">Nasi klienci</h2>
-					<ul class="list">
+					<h2 class="section__title client__title">Nasi klienci</h2>
+					<ul class="list client__list">
 						<li class="client__item">
 							<a class="client__link" href="#">
 								<svg class="client__icon">
@@ -418,11 +532,11 @@
 					</ul>
 				</div>
 			</section>
-		</main> -->
+		</main>
 
 		<!-- ========= FOOTER ========= -->
 
-		<!-- <footer class="footer">
+		<footer class="footer">
 			<div class="container">
 				<ul class="list">
 					<li class="footer__item">
@@ -431,7 +545,7 @@
 						>
 						<address class="address">
 							<ul class="address__list list">
-								<li class="join-us__item">
+								<li class="social__item">
 									<a
 										class="address__link"
 										href="https://goo.gl/maps/1F7WCMWeWTRUKXWQ6"
@@ -439,14 +553,14 @@
 										>m. Warszawa, Aleje Jerozolimskie 21</a
 									>
 								</li>
-								<li class="join-us__item">
+								<li class="social__item">
 									<a
 										class="address__link address__link--mail"
 										href="mailto:info@example.com"
 										>info@example.com</a
 									>
 								</li>
-								<li class="join-us__item">
+								<li class="social__item">
 									<a
 										class="address__link address__link--phone"
 										href="tel:48111111111"
@@ -455,38 +569,38 @@
 								</li>
 							</ul>
 						</address>
-					</li> -->
+					</li>
 					<!-- JOIN US-->
-					<!-- <li class="footer__item">
+					<li class="footer__item">
 						<ul class="join-us__list list">
 							<li>
 								<p class="footer__description">Dołącz do nas</p>
 							</li>
 							<li>
-								<ul class="list">
-									<li class="join-us__item">
-										<a class="join-us__link" href="#">
+								<ul class="list social">
+									<li class="social__item">
+										<a class="social__link join-us__link" href="#">
 											<svg class="join-us__icon">
 												<use href="images/icons.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
-									<li class="join-us__item">
-										<a class="join-us__link" href="#">
+									<li class="social__item">
+										<a class="social__link join-us__link" href="#">
 											<svg class="join-us__icon">
 												<use href="images/icons.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
-									<li class="join-us__item">
-										<a class="join-us__link" href="#">
+									<li class="social__item">
+										<a class="social__link join-us__link" href="#">
 											<svg class="join-us__icon">
 												<use href="images/icons.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
-									<li class="join-us__item">
-										<a class="join-us__link" href="#">
+									<li class="social__item">
+										<a class="social__link join-us__link" href="#">
 											<svg class="join-us__icon">
 												<use href="images/icons.svg#icon-linkedin"></use>
 											</svg>
@@ -495,9 +609,9 @@
 								</ul>
 							</li>
 						</ul>
-					</li> -->
+					</li>
 					<!-- NEWSLETTER -->
-					<!-- <li class="footer__item">
+					<li class="footer__item">
 						<p class="footer__description">Zapisz się do newslettera</p>
 						<form class="form">
 							<label for="email"></label>
@@ -509,19 +623,21 @@
 								placeholder="E-mail"
 								required
 							/>
-							<button class="btn">
-								<input class="input-btn" type="submit" value="Zapisz się" />
-								<svg width="24" height="24">
-									<use href="images/icons.svg#button-icon"></use>
-								</svg>
-							</button>
+							<div class="btn-div">
+								<button class="btn">
+									<input class="input-btn" type="submit" value="Zapisz się" />
+									<svg width="24" height="24">
+										<use href="images/icons.svg#button-icon"></use>
+									</svg>
+								</button>
+							</div>
 						</form>
 					</li>
 				</ul>
 			</div>
-		</footer> -->
+		</footer>
 		<!-- =======  BACKDROP ====== -->
-		<!-- <div class="backdrop is-hidden" data-modal>
+		<div class="backdrop is-hidden" data-modal>
 			<div class="modal-box">
 				<button type="button" class="close-btn" data-modal-close>
 					<svg class="close-btn__icon" width="11" height="11">
@@ -608,8 +724,45 @@
 					</div>
 				</form>
 			</div>
-		</div> -->
+		</div>
 
+		<!--  BACKDROP-HAMBURGER  -->
+
+		<div class="backdrop is-hidden" mobile-menu>
+			<div class="hamburger-container">
+				<button class="close-btn" type="button" mobile-menu-close>
+					<svg class="close-btn__icon" width="11" height="11">
+						<use href="images/icons.svg#close-btn"></use>
+					</svg>
+				</button>
+				<nav class="nav-hamburger">
+					<ul class="nav-hamburger__list list">
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link active-link-pages" href="index.html">Agencja</a></li>
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link" href="portfolio.html">Portfolio</a></li>
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link" href="#">Kontakt</a></li>
+					</ul>
+				</nav>
+
+				<address class="address-hamburger">
+					<ul class="address-hamburger__list list">
+						<li class="address-hamburger__item"><a class="address-hamburger__phone" href="tel:+48111111111">+48 111 111 111</a></li>
+						<li class="address-hamburger__item"><a class="address-hamburger__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					</ul>
+				</address>
+				
+				<div class="social-hamburger__box">
+					<ul class="social-hamburger__list list">
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Instagram</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Twitter</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Facebook</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Linkedin</a></li>
+					</ul>
+				</div>
+				
+			</div>
+	</div>
+		
 		<script src="./js/modal.js"></script>
+		<script src="./mobile-menu.js"></script>
 	</body>
 </html>

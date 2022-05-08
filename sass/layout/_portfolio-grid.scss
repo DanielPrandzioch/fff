@@ -2,6 +2,12 @@
 	display: flex;
 	flex-wrap: wrap;
 }
+@media screen and (max-width: 480px) {
+	.portfolio-grid__list {
+		
+	}
+	
+}
 .portfolio-box {
 	position: relative;
 	overflow: hidden;

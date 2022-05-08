@@ -1,18 +1,11 @@
-.newsletter {
+
+@media screen and (min-width: 320px) {
+	.newsletter {
 	padding-top: 72px;
 	width: 570px;
 	margin-left: 78px;
-
-	&+.form {
-	justify-content: space-between;
 	}
-}
-
-.form {
-	display: flex;
-}
-
-.form__input {
+	.form__input {
 	padding-left: 16px;
 	height: 50px;
 	width: 358px;
@@ -28,4 +21,37 @@
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	}
-}	
+	}	
+	
+}
+// .newsletter {
+// 	padding-top: 72px;
+// 	width: 570px;
+// 	margin-left: 78px;
+
+// 	&+.form {
+// 	justify-content: space-between;
+// 	}
+// }
+
+// .form {
+// 	display: flex;
+// }
+
+// .form__input {
+// 	padding-left: 16px;
+// 	height: 50px;
+// 	width: 358px;
+// 	margin-right: 12px;
+// 	border-radius: 4px;
+// 	background-color: transparent;
+// 	border: 1.5px solid rgba(255, 255, 255, 0.3);
+// 	outline: none;
+// 	color: var(--white-color);
+
+// 	&:focus-within {
+// 	border-color: var(--main-color);
+// 	transition-duration: 250ms;
+// 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// 	}
+// }	
