@@ -15,6 +15,7 @@ h6 {
 	margin: 0;
 	padding: 0;
 }
+
 p {
 	margin: 0;
 	padding: 0;
@@ -39,12 +40,8 @@ button {
 		background-color: var(--white-color-);
 	}
 }
-@media screen and (min-width: 481px) and (max-width: 1100px) {
-	button {
-		display: none;
-	}
-}
-.list {
+
+	.list {
 	list-style: none;
 	display: flex;
-}
+	}

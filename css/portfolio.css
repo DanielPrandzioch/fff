@@ -54,12 +54,6 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
-  button {
-    display: none;
-  }
-}
-
 .list {
   list-style: none;
   display: flex;
@@ -89,6 +83,17 @@ button {
   .container {
     max-width: 768px;
     padding: 0 15px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .hero {
+    height: 400px;
+  }
+  .section__title {
+    padding-top: 60px;
+    margin-bottom: 30px;
+    color: var(--second-text-color);
   }
 }
 
@@ -126,11 +131,11 @@ button {
   .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.192;
+    font-size: 24px;
+    line-height: 1.382;
     letter-spacing: 0.03em;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    margin-top: 26px;
+    margin-bottom: 26px;
     color: var(--second-text-color);
   }
   .logo__label {
@@ -141,12 +146,12 @@ button {
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  font-size: 24px;
+  line-height: 1.382;
   letter-spacing: 0.03em;
   margin-top: 24px;
-  margin-right: 93px;
-  margin-bottom: 25px;
+  margin-right: 83px;
+  margin-bottom: 24px;
   color: var(--second-text-color);
 }
 
@@ -157,8 +162,8 @@ button {
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.192;
+  font-size: 24px;
+  line-height: 1.382;
   letter-spacing: 0.03em;
   color: var(--white-color);
 }
@@ -222,6 +227,17 @@ button {
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .btn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    margin-top: 30px;
+    padding: 10px;
+  }
+}
+
 .header .container {
   display: flex;
 }
@@ -235,7 +251,7 @@ button {
 
 @media screen and (min-width: 481px) and (max-width: 1100px) {
   .nav__list {
-    margin-right: 345px;
+    margin-right: 83px;
     margin-top: 32px;
     margin-bottom: 32px;
   }
@@ -255,8 +271,8 @@ button {
     color: var(--main-color);
   }
   .header-address {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 21px;
+    margin-bottom: 21px;
   }
   .header-address__email {
     margin-bottom: 10px;
@@ -300,7 +316,7 @@ button {
     content: "";
     position: absolute;
     display: block;
-    top: 46px;
+    top: 47px;
     width: 100%;
     height: 4px;
     border-radius: 2px;
@@ -445,6 +461,38 @@ button {
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .footer__list {
+    padding-left: 76px;
+    padding-right: 80px;
+  }
+  .footer__list:last-child {
+    flex-wrap: wrap;
+  }
+  .footer__item {
+    padding-top: 72px;
+  }
+  .footer__item:first-child {
+    padding-top: 60px;
+    margin-right: 70px;
+  }
+  .footer__item:last-child {
+    margin-left: 66px;
+  }
+  .footer__item:nth-last-child(2) {
+    padding-left: 5px;
+  }
+  .footer__description {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 0.03em;
+  }
+}
+
 .address__list {
   display: flex;
   flex-direction: column;
@@ -510,12 +558,65 @@ button {
   }
 }
 
+@media screen and (min-width: 481px) and (max-width: 1100px) {
+  .join-us {
+    padding-top: 72px;
+    margin-left: 70px;
+  }
+  .join-us__list {
+    flex-direction: column;
+  }
+  .join-us__icon {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+  }
+  .join-us__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .join-us__link {
+    display: inline-block;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    fill: var(--white-color);
+    background: rgba(255, 255, 255, 0.1);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .join-us__link:hover, .join-us__link:focus {
+    fill: var(--white-color);
+    background-color: var(--main-color);
+  }
+}
+
 @media screen and (max-width: 480px) {
   .newsletter {
     padding-top: 72px;
     width: 570px;
     margin-left: 78px;
   }
+  .form__input {
+    padding-left: 16px;
+    height: 50px;
+    width: 450px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1.5px solid rgba(255, 255, 255, 0.3);
+    outline: none;
+    color: var(--white-color);
+  }
+  .form__input:focus-within {
+    border-color: var(--main-color);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1100px) {
   .form__input {
     padding-left: 16px;
     height: 50px;

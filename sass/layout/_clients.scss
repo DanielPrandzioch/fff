@@ -27,14 +27,15 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 1100px) {
     .client__title {
-        padding-top: 0px;
+        margin-top: 60px;
     }
     .client__list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-bottom: 60px;
     }
     .client__item {
         margin-bottom: 30px;

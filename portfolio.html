@@ -19,7 +19,7 @@
 		
 	</head>
 	<body>
-		<header class="header portfolio-border">
+		<header class="header">
 			<div class="container header__container">
 				<a class="logo" href="index.html"
 					><span class="logo__label">Web</span>Studio</a
@@ -28,12 +28,12 @@
 				<nav class="nav">
 					<ul class="nav__list list">
 						<li class="nav__item">
-							<a class="nav__link" href="index.html"
+							<a class="nav__link active-link-pages" href="index.html"
 								>Agencja</a
 							>
 						</li>
 						<li class="nav__item">
-							<a class="nav__link active-link-pages" href="portfolio.html">Portfolio</a>
+							<a class="nav__link" href="portfolio.html">Portfolio</a>
 						</li>
 						<li class="nav__item">
 							<a class="nav__link" href="#">Kontakt</a>
@@ -42,7 +42,7 @@
 				</nav>
 				
 				<div class="header-address">
-					<a class="header-address__link" href="mailto:info@devstudio.com">
+					<a class="header-address__link header-address__email" href="mailto:info@devstudio.com">
 						<svg class="header-address__icon header-address__icon--mail">
 							<use href="images/icons.svg#icon-envelope"></use>
 						</svg>
@@ -57,15 +57,16 @@
 				</div>
 
 				<!-- HAMBURGER -->
-
-				<button class="hamburger-btn" type="button" data-hamburger-open>
+				<div class="hamburger-box">
+				<button class="hamburger-btn" type="button" mobile-menu-open>
           			<svg class="hamburger-btn__icon" width="24" height="16">
             		<use href="images/icons.svg#hamburger"></use>
           			</svg>
         		</button>
+				</div>
 				
       	</div>
-			</div>
+			
 		</header>
 
 		<main>
@@ -325,9 +326,9 @@
 
 		<!-- ========= FOOTER ========= -->
 
-			<footer class="footer">
+			<footer class="footer footer-portfolio">
 			<div class="container">
-				<ul class="list">
+				<ul class="list footer__list">
 					<li class="footer__item">
 						<a class="logo-footer" href="index.html"
 							><span class="logo__label">Web</span>Studio</a
