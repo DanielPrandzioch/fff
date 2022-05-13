@@ -60,3 +60,42 @@
 	letter-spacing: 0.03em;
 	color: var(--white-color);
 }
+
+@media screen and (min-width: 1101px) {
+	.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.384;
+	letter-spacing: 0.03em;
+	margin-top: 26px;
+	margin-bottom: 26px;
+	color: var(--second-text-color);
+	}
+	.logo__label {
+	color: var(--main-color);
+	}
+}
+
+.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.384;
+	letter-spacing: 0.03em;
+	margin-top: 24px;
+	margin-right: 83px;
+	margin-bottom: 24px;
+	color: var(--second-text-color);
+}
+.logo__label {
+	color: var(--main-color);
+}
+.logo-footer {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.384;
+	letter-spacing: 0.03em;
+	color: var(--white-color);
+}

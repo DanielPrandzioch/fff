@@ -61,15 +61,45 @@
 				</div>
 
 				<!-- HAMBURGER -->
-				<div class="hamburger-box">
+				<!-- <div class="hamburger-box">
 				<button class="hamburger-btn" type="button" mobile-menu-open>
           			<svg class="hamburger-btn__icon" width="24" height="16">
             		<use href="images/icons.svg#hamburger"></use>
           			</svg>
         		</button>
-				</div>
+				</div> -->
 				
-      	</div>
+					<button class="hamburger-btn" type="button" mobile-menu-open>
+          				<svg class="hamburger-btn__icon" width="24" height="16">
+            				<use href="images/icons.svg#hamburger"></use>
+          				</svg>
+        			</button>
+
+					<div class="backdrop is-hidden" mobile-menu>
+						<button class="close-btn" type="button" mobile-menu-close>
+								<svg class="close-btn__icon" width="11" height="11">
+									<use href="images/icons.svg#close-btn"></use>
+								</svg>
+						</button>
+						
+					<ul class="nav-hamburger__list list">
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link active-link-pages" href="index.html">Agencja</a></li>
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link" href="portfolio.html">Portfolio</a></li>
+						<li class="nav-hamburger__item"><a class="nav-hamburger__link" href="#">Kontakt</a></li>
+						<li class="address-hamburger__item"><a class="address-hamburger__phone" href="tel:+48111111111">+48 111 111 111</a></li>
+						<li class="address-hamburger__item"><a class="address-hamburger__mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					</ul>
+				
+					<ul class="social-hamburger__list list">
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Instagram</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Twitter</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Facebook</a></li>
+						<li class="social-hamburger__item"><a class="social-hamburger__link" href="#">Linkedin</a></li>
+					</ul>
+				
+				
+					</div>
+			</div>
 			
 		</header>
 		
@@ -92,7 +122,7 @@
 			</section>
 
 			<!--OUR ATUTS-->
-			<section class="section">
+			<section class="section our-atuts-section">
 				<div class="container">
 					<h2 hidden>Nasze atuty</h2>
 					<ul class="list atuts-ul">
@@ -220,7 +250,6 @@
 										images/Main/team/img1-mobile-@2x.jpg 2x
 									"
 									media="(min-width: 480px)"
-									sizes="354px"
 								/>
 								<source
 									srcset="
@@ -290,7 +319,6 @@
 										images/Main/team/img2-mobile-@2x.jpg 2x
 									"
 									media="(min-width: 480px)"
-									sizes="354px"
 								/>
 								<source
 									srcset="
@@ -360,7 +388,6 @@
 										images/Main/team/img3-mobile-@2x.jpg 2x
 									"
 									media="(min-width: 480px)"
-									sizes="354px"
 								/>
 								<source
 									srcset="
@@ -430,7 +457,6 @@
 										images/Main/team/img4-mobile-@2x.jpg 2x
 									"
 									media="(min-width: 480px)"
-									sizes="354px"
 								/>
 								<source
 									srcset="
@@ -729,7 +755,7 @@
 
 		<!--  BACKDROP-HAMBURGER  -->
 
-		<div class="backdrop is-hidden" mobile-menu>
+		<!-- <div class="backdrop is-hidden" mobile-menu>
 			<div class="hamburger-container">
 				<button class="close-btn" type="button" mobile-menu-close>
 					<svg class="close-btn__icon" width="11" height="11">
@@ -761,7 +787,7 @@
 				</div>
 				
 			</div>
-	</div>
+			</div> -->
 		
 		<script src="./js/modal.js"></script>
 		<script src="./mobile-menu.js"></script>

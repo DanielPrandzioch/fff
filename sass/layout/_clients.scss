@@ -62,7 +62,7 @@
 
 @media screen and (min-width: 1200px) {
     .client__list {
-        // display: flex;
+        display: flex;
         flex-wrap: nowrap;
         justify-content: space-around;
     }

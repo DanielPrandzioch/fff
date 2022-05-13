@@ -12,6 +12,7 @@
 }
 .portfolio-controls__list {
 	margin-bottom: 50px;
+	display: flex;
 }
 @media screen and (max-width: 480px) {
 	.portfolio-controls__item:nth-last-child(-n+2) {
