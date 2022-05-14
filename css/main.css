@@ -64,7 +64,7 @@ button {
   text-align: center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .container:not(.header__container) {
     max-width: 480px;
     padding: 0 15px;
@@ -78,7 +78,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     max-width: 768px;
     padding: 0 15px;
@@ -91,7 +91,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     height: 400px;
   }
@@ -111,7 +111,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -132,7 +132,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -173,7 +173,7 @@ button {
   color: var(--white-color);
 }
 
-@media screen and (min-width: 1101px) {
+@media screen and (min-width: 1200px) {
   .logo {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -302,7 +302,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .btn-div {
     display: flex;
     justify-content: center;
@@ -370,7 +370,7 @@ button {
   color: #000;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .modal-form__description {
     margin-left: 40px;
     font-size: 20px;
@@ -463,7 +463,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .modal-form {
     width: 450px;
     height: 609px;
@@ -609,14 +609,14 @@ button {
   display: flex;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav__list,
   .header-address {
     display: none;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav__list {
     margin-right: 83px;
     margin-top: 32px;
@@ -766,7 +766,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero {
     background: var(--dark-background);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Main/Hero/img-mobile.jpg");
@@ -778,13 +778,13 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Main/Hero/img-mobile-@2x.jpg");
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .main-title {
     width: 365px;
     font-weight: 900;
@@ -803,7 +803,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .hero {
     background: var(--dark-background);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Main/Hero/img-tablet.jpg");
@@ -830,7 +830,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Main/Hero/img-tablet-@2x.jpg");
   }
@@ -873,7 +873,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .atuts__item {
     margin-bottom: 30px;
   }
@@ -905,7 +905,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .atuts-ul {
     display: flex;
     flex-wrap: wrap;
@@ -1061,7 +1061,7 @@ button {
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 767px) {
   .our-team__list {
     padding-bottom: 60px;
   }
@@ -1070,7 +1070,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-team__list {
     flex-wrap: wrap;
     display: flex;
@@ -1135,28 +1135,13 @@ button {
   border: 1px solid #2196f3;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .client__icon {
     width: 210px;
     height: 92px;
   }
   .client__item {
     margin-bottom: 10px;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 1100px) {
-  .client__title {
-    margin-top: 60px;
-  }
-  .client__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 60px;
-  }
-  .client__item {
-    margin-bottom: 30px;
   }
 }
 
@@ -1201,7 +1186,7 @@ button {
   padding-bottom: 60px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer__item {
     padding-top: 60px;
   }
@@ -1216,7 +1201,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__list {
     padding-left: 76px;
     padding-right: 80px;
@@ -1324,7 +1309,7 @@ button {
   color: var(--main-color);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .join-us__list {
     display: block;
   }
@@ -1345,7 +1330,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .join-us {
     padding-top: 72px;
     margin-left: 70px;
@@ -1377,6 +1362,9 @@ button {
   .join-us__link:hover, .join-us__link:focus {
     fill: var(--white-color);
     background-color: var(--main-color);
+  }
+  .social__list {
+    display: flex;
   }
 }
 
@@ -1414,7 +1402,7 @@ button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .newsletter {
     padding-top: 72px;
     width: 570px;
@@ -1437,7 +1425,7 @@ button {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 1100px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .form__input {
     padding-left: 16px;
     height: 50px;

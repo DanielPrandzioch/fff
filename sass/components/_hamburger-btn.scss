@@ -1,7 +1,5 @@
-@media screen and (min-width: 481px) {
-    button .hamburger-box,
-    button .hamburger-btn,
-    button .hamburger-btn__icon {
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    button .hamburger-btn {
         display: none;
     }
 }
