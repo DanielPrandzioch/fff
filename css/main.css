@@ -730,13 +730,104 @@ button {
 }
 
 .mobile-window {
+  display: flex;
+  flex-direction: column;
   position: fixed;
+  z-index: 100;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.2);
-  transition: visibility 250ms cubic-bezier(0.1, 0.5, 1, 1), opacity 250ms cubic-bezier(0.1, 0.5, 1, 1);
+  background-color: var(--white-color);
+  transition: opacity 250ms cubic-bezier(0.1, 0.5, 1, 1);
+}
+
+.mobile-window .nav-hamburger__list,
+.mobile-window .address-hamburger__item,
+.mobile-window .social-hamburger__list {
+  display: block;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.mobile-window .nav-hamburger__list {
+  margin-top: 48px;
+  margin-bottom: 220px;
+}
+
+.mobile-window .address-hamburger__item {
+  margin-top: 30px;
+}
+
+.mobile-window .social-hamburger__list {
+  display: flex;
+  margin-top: 64px;
+}
+
+.mobile-window .nav-hamburger__link,
+.mobile-window .address-hamburger__phone {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.175;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-window .nav-hamburger__link:hover, .mobile-window .nav-hamburger__link:focus,
+.mobile-window .address-hamburger__phone:hover,
+.mobile-window .address-hamburger__phone:focus {
+  color: var(--main-color);
+}
+
+.mobile-window .nav-hamburger__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-window .address-hamburger__phone {
+  color: var(--main-color);
+}
+
+.mobile-window .address-hamburger__mail {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.166;
+  color: var(--main-text-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-window .address-hamburger__mail:hover, .mobile-window .address-hamburger__mail:focus {
+  color: var(--main-color);
+}
+
+.mobile-window .social-hamburger__link {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.222;
+  color: var(--main-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-window .social-hamburger__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.close-window {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border: none;
+  top: 10px;
+  right: 15px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-window:hover {
+  fill: var(--main-color);
 }
 
 @media screen and (max-width: 767px) {
