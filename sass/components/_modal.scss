@@ -232,22 +232,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-	.modal-form {
-		width: 450px;
-		height: 609px;
-	}
 	.modal-form__description {
-		padding-right: 15px;
-		width: 370px;
-		height: 60px;
-	    margin-top: 50px;
-		margin-bottom: 12px;
-		margin-left: 40px;
-		text-align: center;
-		font-weight: 700;
-		font-size: 20px;
-		line-height: 1.15;
-		color: #000;
+	margin-top: 40px;
+	margin-bottom: 12px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.15;
+	color: #000;
 }
 
 .modal-form__label,
@@ -267,13 +259,13 @@
 	& a {
 	text-decoration: underline;
 	color: var(--main-color);
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	}
 
 	& p {
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
 	}
@@ -309,7 +301,7 @@
 	border-radius: 4px;
 	outline: none;
 	border: 1px solid rgba(33, 33, 33, 0.2);
-	width: 370px;
+	width: 448px;
 	padding-left: 34px;
 	position: relative;
 
