@@ -1,5 +1,22 @@
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    button .hamburger-btn {
+.header__container {
+    position: relative;
+}
+.hamburger-btn__icon {
+    position: absolute;
+    top: 31px;
+	right: 18px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+            fill: var(--main-color);
+            cursor: pointer;
+      }
+}
+
+@media screen and (min-width: 768px) {
+     .hamburger-btn__icon {
         display: none;
     }
 }

@@ -605,14 +605,27 @@ button {
   cursor: pointer;
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  button .hamburger-btn {
-    display: none;
-  }
+.header__container {
+  position: relative;
 }
 
-.header .container {
-  display: flex;
+.hamburger-btn__icon {
+  position: absolute;
+  top: 31px;
+  right: 18px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hamburger-btn__icon:hover, .hamburger-btn__icon:focus {
+  fill: var(--main-color);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger-btn__icon {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -620,11 +633,17 @@ button {
   .header-address {
     display: none;
   }
+  .header__container {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header .container {
+    display: flex;
+  }
   .nav__list {
-    margin-right: 83px;
+    margin-right: 65px;
     margin-top: 32px;
     margin-bottom: 32px;
     display: flex;
@@ -699,6 +718,9 @@ button {
 }
 
 @media screen and (min-width: 1200px) {
+  .header .container {
+    display: flex;
+  }
   .nav__list {
     margin-right: 345px;
     margin-top: 32px;
@@ -727,7 +749,7 @@ button {
   }
   .header-address__icon {
     fill: currentColor;
-    margin-right: 10px;
+    margin-right: 8px;
   }
   .header-address__icon--mail {
     width: 16px;

@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>tester</title>
+		<title>WebStudio</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -28,6 +28,9 @@
 				<a class="logo" href="index.html"
 					><span class="logo__label">Web</span>Studio</a
 				>
+				<svg class="hamburger-btn__icon" data-menu-open width="24" height="16">
+            				<use href="images/icons.svg#hamburger"></use>
+          		</svg>
 
 				<nav class="nav">
 					<ul class="nav__list list">
@@ -52,7 +55,7 @@
 						</svg>
 						info@devstudio.com</a
 					>
-					<a class="header-address__link" href="tel:48111111111">
+					<a class="header-address__link header-address__phone" href="tel:48111111111">
 						<svg class="header-address__icon header-address__icon--phone">
 							<use href="images/icons.svg#icon-smartphone"></use>
 						</svg>
@@ -62,13 +65,13 @@
 
 				<!--  HAMBURGER  -->
 
-					<button class="hamburger-btn" type="button" data-menu-open>
+					<!-- <button class="hamburger-btn" type="button" data-menu-open>
           				<svg class="hamburger-btn__icon" width="24" height="16">
             				<use href="images/icons.svg#hamburger"></use>
           				</svg>
-        			</button>
+        			</button> -->
 
-					<div class="backdrop is-hidden" data-menu>
+					<div class="backdrop is-hidden mobile-window" data-menu>
 						<button class="close-btn" type="button" data-menu-close>
 								<svg class="close-btn__icon" width="11" height="11">
 									<use href="images/icons.svg#close-btn"></use>

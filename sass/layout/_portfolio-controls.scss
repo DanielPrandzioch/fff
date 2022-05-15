@@ -15,6 +15,9 @@
 	display: flex;
 }
 @media screen and (max-width: 767px) {
+	.portfolio-controls__list {
+		flex-wrap: wrap;
+	}
 	.portfolio-controls__item:nth-last-child(-n+2) {
 		margin-top: 8px;
 	}
